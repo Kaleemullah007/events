@@ -1,0 +1,152 @@
+@media screen and (min-width:1200px) and (max-width:1365px) {
+    .wsmenu-list>li>a {
+        margin: 0 10px
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .wsmenu-list>li>a {
+        margin: 0 10px
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 12px 16px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .logo img {
+        width: 100px
+    }
+}
+
+@media(max-width:767px) {
+    .logo {
+        text-align: center;
+        display: none
+    }
+    .left-side .box img{
+    	width:100%;
+    }
+    .ptb-40 {
+        padding: 20px 0
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #24170c
+    }
+    .map iframe {
+        width: 100%!important;
+        overflow: hidden
+    }
+    .container {
+        width: 100%;
+        max-width: 100%
+    }
+    .top-search {
+        display: block;
+        margin: 15px 0 0
+    }
+    .logo-and-search-box {
+        padding:70px 0 0
+    }
+    .home-search{
+    	padding:0px;
+    }
+    .search-title {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+    .stylish-input-group .form-control {
+        max-width: 100%;
+        margin: 10px 0;
+        float: none
+    }
+    .stylish-input-group .form-control {
+        max-width: 100%;
+        float: none;
+        margin: 0 0 10px;
+        display: block;
+        border: 1px solid #ccc;
+        font-size:12.5px;
+        border-radius:0px;
+    }
+    .stylish-input-group .input-group-addon {
+        display: block;
+        margin: 0 0 10px;
+        border-radius:0px !important;
+    }
+    #imaginary_container .input-group {
+        display: block
+    }
+    .contact-us-inner .container {
+        padding: 25px;
+        margin: 0 auto
+    }
+    .common-confo-details {
+        text-align: center
+    }
+    .common-confo-details .media-body {
+        width: 100%
+    }
+    .common-confo-details .media-body,
+    .common-confo-details .media-left,
+    .common-confo-details .media-right {
+        display: block
+    }
+    .common-confo-details .media-object {
+        margin: 0 auto 15px
+    }
+    body .conferences-by-country-table.table>tbody>tr>td,
+    body .conferences-by-country-table.table>tbody>tr>th {
+        display: block;
+        width: 100%
+    }
+    .country-name-list a,
+    .conferences-topic-list a {
+        margin-bottom: 10px;
+        display: inline-block
+    }
+    .major-conference-cities a {
+        margin-bottom: 8px;
+        display: inline-block
+    }
+    .smallogo>img {
+	    margin-top: 0;
+	    width:175px;
+	}
+    header{
+        padding:0 0 10px;
+    }
+    .box .table-responsive{
+        border:0px;
+    }
+    .top-footer-part li{
+        margin:0 0 10px;
+    }
+    .month-wise-confo span {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .bg-with-shadow .media-left > p, .bg-with-shadow .views-block.pull-right{
+        float:none !important;
+    }
+    .bg-with-shadow{
+        padding:15px;
+    }
+    .event-img-left {
+        float: none;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:767px) {}
+
+@media screen and (min-width:480px) and (max-width:599px) {
+
+}

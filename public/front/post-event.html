@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Post Event Page</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/flag-icon.min.css" rel="stylesheet">
+<link href="css/webslidemenu.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="left-side-ad hidden-xs hidden-sm"></div>
+	<div class="right-side-ad hidden-xs hidden-sm"></div>
+	<header>
+		<div class="black-bg"></div>
+		<div class="logo-and-search-box">
+		   <div class="container">
+		      <div class="row">
+		        <div class="col-sm-3 col-xs-12">
+		            <div class="logo">
+		               <a href="index.html" class="smallogo"><img src="images/logo.png" alt="logo"></a>
+		            </div>
+		        </div>
+		        <div class="col-sm-9 col-xs-12">
+		        	<div class="top-menu">
+					    <div class="col-sm-12 col-xs-12">
+				            <div class="wsmenucontainer clearfix">
+				               <a href="#" alt="">
+				                  <div class="overlapblackbg"></div>
+				               </a>
+				               <div class="wsmobileheader clearfix">
+                                  <a id="wsnavtoggle" class="animated-arrow"><span></span></a>
+				                  <a href="index.html" class="smallogo"><img src="images/logo.png" alt="logo" width="120"></a>
+				                  <a class="callusicon" href="#"><span class="fa fa-envelope"></span></a>
+				               </div>
+				               <div class="main-menu">
+				                  <div class="wsmain">
+				                     <nav class="wsmenu clearfix">
+				                        <ul class="mobile-sub wsmenu-list">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="post-event.html">Post Event</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                            <li><a href="login.html">Login</a></li>
+				                        </ul>
+				                     </nav>
+				                  </div>
+				               </div>
+				            </div>
+				        </div>
+					</div>
+		        </div>
+		        <div class="col-sm-12">
+		        	<div class="input-group stylish-input-group home-search">
+		        		<h2 class="search-title">Find interesting trade shows & conferences to attend globally</h2>
+					    <form id="search">
+					        <input type="text" class="form-control" placeholder="Search by: City, Country, Industry or event name" name="q" value="">
+					        <span class="input-group-addon">
+								<button type="submit" name="searchby" value="keywords">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								Search
+								</button>
+							</span>
+					    </form>
+					</div>
+		        </div>
+		      </div>
+		   </div>
+		</div>
+	</header>
+	<section class="event-list-inner ptb-10">
+	    <div class="container">
+	        <h2 class="big-title">Post Conference / Event</h2>
+
+	        <div class="common-box">
+	            <h2 class="sub-title text-center">Organizer Details</h2>
+	            <div class="row pt-20">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Name of organization *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Admin email address *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="email" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Username *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Password *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="password" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="common-box">
+	            <h2 class="sub-title text-center">Conference/Events Details</h2>
+	            <div class="row pt-20">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Logo (optional)</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="file" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Conference/Event Title *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <select class="form-control">
+	                            <option value="">Select</option>
+	                            <option value="11">
+	                                Animal Sciences </option>
+	                            <option value="147">
+	                                &nbsp;&nbsp;»&nbsp;Veterinary Science </option>
+	                            <option value="5">
+	                                Business and Economics </option>
+	                            <option value="68">
+	                                &nbsp;&nbsp;»&nbsp;Banking and finance </option>
+	                            <option value="69">
+	                                &nbsp;&nbsp;»&nbsp;Business </option>
+	                            <option value="70">
+	                                &nbsp;&nbsp;»&nbsp;Business Ethics </option>
+	                            <option value="71">
+	                                &nbsp;&nbsp;»&nbsp;E-commerce </option>
+	                            <option value="72">
+	                                &nbsp;&nbsp;»&nbsp;Economics </option>
+	                            <option value="73">
+	                                &nbsp;&nbsp;»&nbsp;Human Resources </option>
+	                            <option value="74">
+	                                &nbsp;&nbsp;»&nbsp;Management </option>
+	                            <option value="75">
+	                                &nbsp;&nbsp;»&nbsp;Marketing </option>
+	                            <option value="8">
+	                                Education </option>
+	                            <option value="118">
+	                                &nbsp;&nbsp;»&nbsp;E-learning </option>
+	                            <option value="119">
+	                                &nbsp;&nbsp;»&nbsp;Higher Education </option>
+	                            <option value="120">
+	                                &nbsp;&nbsp;»&nbsp;Lifelong Learning </option>
+	                            <option value="121">
+	                                &nbsp;&nbsp;»&nbsp;Teaching and Learning </option>
+	                            <option value="7">
+	                                Engineering and Technology </option>
+	                            <option value="94">
+	                                &nbsp;&nbsp;»&nbsp;Architecture </option>
+	                            <option value="95">
+	                                &nbsp;&nbsp;»&nbsp;Artificial Intelligence </option>
+	                            <option value="96">
+	                                &nbsp;&nbsp;»&nbsp;Bioinformatics </option>
+	                            <option value="97">
+	                                &nbsp;&nbsp;»&nbsp;Biomedical Engineering </option>
+	                            <option value="98">
+	                                &nbsp;&nbsp;»&nbsp;Biotechnology </option>
+	                            <option value="99">
+	                                &nbsp;&nbsp;»&nbsp;Computer software and applications </option>
+	                            <option value="100">
+	                                &nbsp;&nbsp;»&nbsp;Computing </option>
+	                            <option value="101">
+	                                &nbsp;&nbsp;»&nbsp;Data Mining </option>
+	                            <option value="102">
+	                                &nbsp;&nbsp;»&nbsp;Design </option>
+	                            <option value="103">
+	                                &nbsp;&nbsp;»&nbsp;Energy </option>
+	                            <option value="104">
+	                                &nbsp;&nbsp;»&nbsp;Engineering </option>
+	                            <option value="105">
+	                                &nbsp;&nbsp;»&nbsp;Forestry </option>
+	                            <option value="106">
+	                                &nbsp;&nbsp;»&nbsp;Information Technology </option>
+	                            <option value="107">
+	                                &nbsp;&nbsp;»&nbsp;Internet and World Wide Web </option>
+	                            <option value="108">
+	                                &nbsp;&nbsp;»&nbsp;Manufacturing </option>
+	                            <option value="109">
+	                                &nbsp;&nbsp;»&nbsp;Military </option>
+	                            <option value="110">
+	                                &nbsp;&nbsp;»&nbsp;Mining </option>
+	                            <option value="111">
+	                                &nbsp;&nbsp;»&nbsp;Nanotechnology and Smart Materials </option>
+	                            <option value="112">
+	                                &nbsp;&nbsp;»&nbsp;Polymers and Plastics </option>
+	                            <option value="113">
+	                                &nbsp;&nbsp;»&nbsp;Renewable Energy </option>
+	                            <option value="114">
+	                                &nbsp;&nbsp;»&nbsp;Robotics </option>
+	                            <option value="115">
+	                                &nbsp;&nbsp;»&nbsp;Space Environment and Aviation Technology </option>
+	                            <option value="116">
+	                                &nbsp;&nbsp;»&nbsp;Systems Engineering </option>
+	                            <option value="117">
+	                                &nbsp;&nbsp;»&nbsp;Transport </option>
+	                            <option value="10">
+	                                Health and Medicine </option>
+	                            <option value="123">
+	                                &nbsp;&nbsp;»&nbsp;Alternative Health </option>
+	                            <option value="124">
+	                                &nbsp;&nbsp;»&nbsp;Cardiology </option>
+	                            <option value="125">
+	                                &nbsp;&nbsp;»&nbsp;Dentistry </option>
+	                            <option value="126">
+	                                &nbsp;&nbsp;»&nbsp;Dermatology </option>
+	                            <option value="127">
+	                                &nbsp;&nbsp;»&nbsp;Disability and Rehabilitation </option>
+	                            <option value="128">
+	                                &nbsp;&nbsp;»&nbsp;Family Medicine </option>
+	                            <option value="129">
+	                                &nbsp;&nbsp;»&nbsp;Food Safety </option>
+	                            <option value="130">
+	                                &nbsp;&nbsp;»&nbsp;Gastroenterology </option>
+	                            <option value="131">
+	                                &nbsp;&nbsp;»&nbsp;Gerontology </option>
+	                            <option value="132">
+	                                &nbsp;&nbsp;»&nbsp;Health </option>
+	                            <option value="133">
+	                                &nbsp;&nbsp;»&nbsp;Infectious diseases </option>
+	                            <option value="134">
+	                                &nbsp;&nbsp;»&nbsp;Medical ethics </option>
+	                            <option value="135">
+	                                &nbsp;&nbsp;»&nbsp;Medicine and Medical Science </option>
+	                            <option value="136">
+	                                &nbsp;&nbsp;»&nbsp;Neurology </option>
+	                            <option value="137">
+	                                &nbsp;&nbsp;»&nbsp;Nursing </option>
+	                            <option value="138">
+	                                &nbsp;&nbsp;»&nbsp;Nutrition and Dietetics </option>
+	                            <option value="139">
+	                                &nbsp;&nbsp;»&nbsp;Oncology </option>
+	                            <option value="140">
+	                                &nbsp;&nbsp;»&nbsp;Palliative Care </option>
+	                            <option value="141">
+	                                &nbsp;&nbsp;»&nbsp;Psychiatry </option>
+	                            <option value="142">
+	                                &nbsp;&nbsp;»&nbsp;Public Health </option>
+	                            <option value="143">
+	                                &nbsp;&nbsp;»&nbsp;Radiology </option>
+	                            <option value="144">
+	                                &nbsp;&nbsp;»&nbsp;Reproductive Medicine and Women's Health </option>
+	                            <option value="145">
+	                                &nbsp;&nbsp;»&nbsp;Social Work </option>
+	                            <option value="146">
+	                                &nbsp;&nbsp;»&nbsp;Surgery </option>
+	                            <option value="2">
+	                                Interdisciplinary </option>
+	                            <option value="36">
+	                                &nbsp;&nbsp;»&nbsp;Children and Youth </option>
+	                            <option value="37">
+	                                &nbsp;&nbsp;»&nbsp;Communications and Media </option>
+	                            <option value="38">
+	                                &nbsp;&nbsp;»&nbsp;Conflict resolution </option>
+	                            <option value="39">
+	                                &nbsp;&nbsp;»&nbsp;Creativity </option>
+	                            <option value="40">
+	                                &nbsp;&nbsp;»&nbsp;Culture </option>
+	                            <option value="41">
+	                                &nbsp;&nbsp;»&nbsp;Disaster Management </option>
+	                            <option value="42">
+	                                &nbsp;&nbsp;»&nbsp;Discourse </option>
+	                            <option value="43">
+	                                &nbsp;&nbsp;»&nbsp;Film studies </option>
+	                            <option value="45">
+	                                &nbsp;&nbsp;»&nbsp;Gender studies </option>
+	                            <option value="44">
+	                                &nbsp;&nbsp;»&nbsp;GLBT Studies </option>
+	                            <option value="46">
+	                                &nbsp;&nbsp;»&nbsp;Globalization </option>
+	                            <option value="47">
+	                                &nbsp;&nbsp;»&nbsp;HIV/AIDS </option>
+	                            <option value="48">
+	                                &nbsp;&nbsp;»&nbsp;Human Rights </option>
+	                            <option value="49">
+	                                &nbsp;&nbsp;»&nbsp;Identity </option>
+	                            <option value="50">
+	                                &nbsp;&nbsp;»&nbsp;Leadership </option>
+	                            <option value="51">
+	                                &nbsp;&nbsp;»&nbsp;Memory </option>
+	                            <option value="52">
+	                                &nbsp;&nbsp;»&nbsp;Poverty </option>
+	                            <option value="53">
+	                                &nbsp;&nbsp;»&nbsp;Public Policy </option>
+	                            <option value="54">
+	                                &nbsp;&nbsp;»&nbsp;Sexuality and eroticism </option>
+	                            <option value="55">
+	                                &nbsp;&nbsp;»&nbsp;Spirituality </option>
+	                            <option value="56">
+	                                &nbsp;&nbsp;»&nbsp;Sport science </option>
+	                            <option value="57">
+	                                &nbsp;&nbsp;»&nbsp;Sustainable development </option>
+	                            <option value="58">
+	                                &nbsp;&nbsp;»&nbsp;Tourism </option>
+	                            <option value="59">
+	                                &nbsp;&nbsp;»&nbsp;Urban studies </option>
+	                            <option value="60">
+	                                &nbsp;&nbsp;»&nbsp;Violence </option>
+	                            <option value="61">
+	                                &nbsp;&nbsp;»&nbsp;Women's studies </option>
+	                            <option value="9">
+	                                Law </option>
+	                            <option value="122">
+	                                &nbsp;&nbsp;»&nbsp;Justice and legal studies </option>
+	                            <option value="4">
+	                                Mathematics and statistics </option>
+	                            <option value="66">
+	                                &nbsp;&nbsp;»&nbsp;Mathematics </option>
+	                            <option value="67">
+	                                &nbsp;&nbsp;»&nbsp;Statistics </option>
+	                            <option value="6">
+	                                Physical and life sciences </option>
+	                            <option value="76">
+	                                &nbsp;&nbsp;»&nbsp;Agriculture </option>
+	                            <option value="77">
+	                                &nbsp;&nbsp;»&nbsp;Aquaculture </option>
+	                            <option value="78">
+	                                &nbsp;&nbsp;»&nbsp;Archaeology </option>
+	                            <option value="79">
+	                                &nbsp;&nbsp;»&nbsp;Astronomy </option>
+	                            <option value="80">
+	                                &nbsp;&nbsp;»&nbsp;Biodiversity </option>
+	                            <option value="81">
+	                                &nbsp;&nbsp;»&nbsp;Biology </option>
+	                            <option value="82">
+	                                &nbsp;&nbsp;»&nbsp;Chemistry </option>
+	                            <option value="83">
+	                                &nbsp;&nbsp;»&nbsp;Earth Sciences </option>
+	                            <option value="84">
+	                                &nbsp;&nbsp;»&nbsp;Ecology </option>
+	                            <option value="85">
+	                                &nbsp;&nbsp;»&nbsp;Environment </option>
+	                            <option value="87">
+	                                &nbsp;&nbsp;»&nbsp;Genetics </option>
+	                            <option value="86">
+	                                &nbsp;&nbsp;»&nbsp;GIS </option>
+	                            <option value="88">
+	                                &nbsp;&nbsp;»&nbsp;Meteorology </option>
+	                            <option value="89">
+	                                &nbsp;&nbsp;»&nbsp;Oceanography </option>
+	                            <option value="90">
+	                                &nbsp;&nbsp;»&nbsp;Physics </option>
+	                            <option value="91">
+	                                &nbsp;&nbsp;»&nbsp;Soil </option>
+	                            <option value="92">
+	                                &nbsp;&nbsp;»&nbsp;Waste Management </option>
+	                            <option value="93">
+	                                &nbsp;&nbsp;»&nbsp;Water </option>
+	                            <option value="3">
+	                                Regional Studies </option>
+	                            <option value="62">
+	                                &nbsp;&nbsp;»&nbsp;African Studies </option>
+	                            <option value="63">
+	                                &nbsp;&nbsp;»&nbsp;American Studies </option>
+	                            <option value="64">
+	                                &nbsp;&nbsp;»&nbsp;Asian Studies </option>
+	                            <option value="65">
+	                                &nbsp;&nbsp;»&nbsp;European Studies </option>
+	                            <option value="1">
+	                                Social Sciences </option>
+	                            <option value="12">
+	                                &nbsp;&nbsp;»&nbsp;Anthropology </option>
+	                            <option value="13">
+	                                &nbsp;&nbsp;»&nbsp;Art History </option>
+	                            <option value="14">
+	                                &nbsp;&nbsp;»&nbsp;Arts </option>
+	                            <option value="15">
+	                                &nbsp;&nbsp;»&nbsp;English </option>
+	                            <option value="16">
+	                                &nbsp;&nbsp;»&nbsp;History </option>
+	                            <option value="17">
+	                                &nbsp;&nbsp;»&nbsp;Information science </option>
+	                            <option value="18">
+	                                &nbsp;&nbsp;»&nbsp;Interdisciplinary studies </option>
+	                            <option value="19">
+	                                &nbsp;&nbsp;»&nbsp;Islamic Studies </option>
+	                            <option value="20">
+	                                &nbsp;&nbsp;»&nbsp;Language </option>
+	                            <option value="21">
+	                                &nbsp;&nbsp;»&nbsp;Linguistics </option>
+	                            <option value="22">
+	                                &nbsp;&nbsp;»&nbsp;Literature </option>
+	                            <option value="23">
+	                                &nbsp;&nbsp;»&nbsp;Local Government </option>
+	                            <option value="24">
+	                                &nbsp;&nbsp;»&nbsp;Multidisciplinary Studies </option>
+	                            <option value="25">
+	                                &nbsp;&nbsp;»&nbsp;Museums and heritage </option>
+	                            <option value="26">
+	                                &nbsp;&nbsp;»&nbsp;Music </option>
+	                            <option value="27">
+	                                &nbsp;&nbsp;»&nbsp;Occupational Science </option>
+	                            <option value="28">
+	                                &nbsp;&nbsp;»&nbsp;Philosophy </option>
+	                            <option value="29">
+	                                &nbsp;&nbsp;»&nbsp;Poetry </option>
+	                            <option value="30">
+	                                &nbsp;&nbsp;»&nbsp;Politics </option>
+	                            <option value="31">
+	                                &nbsp;&nbsp;»&nbsp;Psychology </option>
+	                            <option value="32">
+	                                &nbsp;&nbsp;»&nbsp;Religious studies </option>
+	                            <option value="33">
+	                                &nbsp;&nbsp;»&nbsp;Social Sciences </option>
+	                            <option value="34">
+	                                &nbsp;&nbsp;»&nbsp;Sociology </option>
+	                            <option value="35">
+	                                &nbsp;&nbsp;»&nbsp;Women's history </option>
+	                        </select>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Event Type * </label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Country</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="password" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>State</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>City</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Organizing society</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Contact person for event *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Event enquiries email address *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Website Address *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Event start date *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Event end date *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Deadline for abstracts/proposals *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Short description * </label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Event Keywords *</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Keynote Speakers (optional)</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Conference Highlights (optional)</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="lable-input-wrap clearfix">
+	                    <div class="col-sm-4">
+	                        <label>Venue (optional)</label>
+	                    </div>
+	                    <div class="col-sm-4">
+	                        <input type="text" class="form-control">
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-sm-12 text-center">
+	                <div class="common-btn">
+	                    <a href="#">Register</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="container">
+	        <div class="bottom-side-ad hidden-xs hidden-sm"></div>
+	    </div>
+	</section>
+	<footer>
+        <div class="newsletter-and-social-media">
+            <div class="container">
+                <div class="row">
+                    <div class="top-footer-part">
+                        <div class="footer-logo text-center">
+                            <a href="index.html"><img src="images/logo.png" alt=""></i></a>
+                        </div>
+                        <p>Event short description goes here.</p>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="post-event.html">Post Event</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="policy.html">Privacy & Refund </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="copy-right">
+                            Copyright © <span id="year"></span> Way2Conference. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/webslidemenu.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/function.js"></script>
+</body>
+</html>
